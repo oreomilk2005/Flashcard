@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane prefHeight="400.0" prefWidth="700.0" style="-fx-background-color: #d32f2f;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controllers.Result">
+   <children>
+      <AnchorPane layoutY="100.0" prefHeight="300.0" prefWidth="700.0" style="-fx-background-color: #e0e0e0;">
+         <children>
+            <Label layoutX="176.0" layoutY="81.0" text="Score: ">
+               <font>
+                  <Font size="64.0" />
+               </font>
+            </Label>
+            <Label fx:id="lblScore" layoutX="368.0" layoutY="81.0" text="XX/XX">
+               <font>
+                  <Font size="64.0" />
+               </font>
+            </Label>
+         </children>
+      </AnchorPane>
+      <Label layoutX="297.0" layoutY="30.0" text="Result" textFill="WHITE">
+         <font>
+            <Font size="36.0" />
+         </font>
+      </Label>
+      <Button fx:id="btnMenu" layoutX="30.0" layoutY="28.0" mnemonicParsing="false" onAction="#menu" prefHeight="51.0" prefWidth="113.0" style="-fx-background-color: #9a0007;" text="Menu" textFill="#e0e0e0">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>
